@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a617e044.chunk.css",
+    "main.js": "/static/js/main.938bd895.chunk.js",
+    "main.js.map": "/static/js/main.938bd895.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1fc783e2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1fc783e2.js.map",
+    "static/css/2.e2865b32.chunk.css": "/static/css/2.e2865b32.chunk.css",
+    "static/js/2.faf35a06.chunk.js": "/static/js/2.faf35a06.chunk.js",
+    "static/js/2.faf35a06.chunk.js.map": "/static/js/2.faf35a06.chunk.js.map",
+    "static/js/3.93b5f3a9.chunk.js": "/static/js/3.93b5f3a9.chunk.js",
+    "static/js/3.93b5f3a9.chunk.js.map": "/static/js/3.93b5f3a9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e2865b32.chunk.css.map": "/static/css/2.e2865b32.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.faf35a06.chunk.js.LICENSE.txt": "/static/js/2.faf35a06.chunk.js.LICENSE.txt",
+    "static/media/base.css": "/static/media/pficon.a32f4243.woff",
+    "static/media/background-image.css": "/static/media/pfbg_768@2x.eea28e73.jpg",
+    "static/media/about-modal-box.css": "/static/media/pfbg_992@2x.30e8d31f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fc783e2.js",
+    "static/css/2.e2865b32.chunk.css",
+    "static/js/2.faf35a06.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.938bd895.chunk.js"
+  ]
+}
