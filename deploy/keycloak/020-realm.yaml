@@ -1,0 +1,24 @@
+apiVersion: keycloak.org/v1alpha1
+kind: KeycloakRealm
+metadata:
+  name: device-management
+  labels:
+    app.kubernetes.io/name: device-management
+    app.kubernetes.io/component: sso
+    app.kubernetes.io/part-of: device-management
+spec:
+  instanceSelector:
+    matchLabels:
+      app.kubernetes.io/name: keycloak
+      app.kubernetes.io/component: sso
+      app.kubernetes.io/part-of: device-management
+  realm:
+    realm: "device-management"
+    enabled: true
+    displayName: "Device Management"
+    registrationAllowed: true
+    resetPasswordAllowed: false
+    loginWithEmailAllowed: false
+    roles:
+      realm:
+        - name: "admin"

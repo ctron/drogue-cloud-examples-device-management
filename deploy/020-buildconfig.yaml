@@ -1,0 +1,20 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: device-management
+spec:
+  source:
+    git:
+      ref: main
+      uri: 'https://github.com/ctron/drogue-cloud-examples-device-management.git'
+    type: Git
+  strategy:
+    type: Docker
+  triggers:
+    - type: ConfigChange
+    - type: GitHub
+      github: {}
+  output:
+    to:
+      kind: ImageStreamTag
+      name: device-management:latest

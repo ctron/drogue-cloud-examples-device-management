@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: device-management
+  labels:
+    app.kubernetes.io/part-of: device-management
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: device-management
+  ports:
+    - port: 8080
+      name: http
+      targetPort: http
