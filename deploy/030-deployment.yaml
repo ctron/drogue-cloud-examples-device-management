@@ -19,9 +19,17 @@ spec:
       containers:
         - name: app
           image: device-management:latest
-          envFrom:
-            - secretRef:
-                name: device-management
+          env:
+            - name: quarkus.oidc.auth-server-url
+              valueFrom:
+                configMapKeyRef:
+                  name: device-managament
+                  key: authServer
+            - name: quarkus.oidc.client-id
+              valueFrom:
+                configMapKeyRef:
+                  name: device-managament
+                  key: clientId
           ports:
             - containerPort: 8080
               name: http
